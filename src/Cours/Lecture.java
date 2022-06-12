@@ -1,4 +1,7 @@
+package Cours;
+
 import java.util.Scanner;
+
 public class Lecture {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
@@ -18,6 +21,7 @@ public class Lecture {
         float poids=input.nextFloat();
 
         System.out.printf("Nom : %s\nPrenom : %s\nGenre : %c\nAge : %d\nPoids : %.2f\n",prenom,nom,genre,age,poids);
+
     }
 }
 

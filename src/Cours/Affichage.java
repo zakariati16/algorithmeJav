@@ -1,3 +1,5 @@
+package Cours;
+
 public class Affichage {
     public static void main(String[] args) {
         String nom="Lisangola";
@@ -17,6 +19,7 @@ public class Affichage {
 //Sans operateur ternaire
         String etatMaritalAAfficher=estMarie?"etes marie":"n'etes pas marie";
         System.out.printf("Vous vous appelez %s %s,vous avez %d ans et vous  %s\n",nom,prenom,age,etatMaritalAAfficher);
+      
 
     }
 

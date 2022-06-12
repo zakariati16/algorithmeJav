@@ -1,4 +1,7 @@
+package Cours;
+
 import java.util.Scanner;
+
 public class Bouclefor {
     public static void main(String[] args) {
         System.out.println("Sans  la boucle for\n=====================");
@@ -47,8 +50,10 @@ public class Bouclefor {
 
 //        Table de multplication version 2
         System.out.println("Table multiplication V2\n========================");
+
         System.out.print("Entrer le nombre dont vous voulez voir la table de multiplication : ");
         var nombre2=input.nextInt();
+
         System.out.print("Debut : ");
         var nombreDebut=input.nextInt();
 

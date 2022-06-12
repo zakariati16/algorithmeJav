@@ -1,4 +1,7 @@
+package Cours;
+
 import java.util.Scanner;
+
 public class ConstanteJava {
     public static void main(String[] args) {
         var input=new Scanner(System.in);
