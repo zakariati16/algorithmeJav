@@ -1,6 +1,13 @@
 import java.util.Scanner;
 
 public class exo18 {
+    //Entrez un text : non
+    //
+    //Résultat : non est un palindrome
+    //
+    //Entrez un text : oui
+    //
+    //Résultat : oui n'est pas un palindrome
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
