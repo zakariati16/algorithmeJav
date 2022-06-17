@@ -41,6 +41,7 @@ public class Rectangle3 {
         return 2*(longueur+largeur);
     }
 
+
     public String toString(){
         return String.format("[ Longueur : %f\nLargeur : %f\nSurface : %f\nPerimètre %f" +
                         " ]",

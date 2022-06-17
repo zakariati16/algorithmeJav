@@ -39,6 +39,8 @@ import java.util.Scanner;
             System.out.print(" Vous vous appelez "+ patients1.getFirstName()+" " +patients1.getLastName() + " \n");
             System.out.print(" votre taille est "+ patients1.getTaille() + " \n");
             System.out.println(" votre poids  "+  patients1.getPoids()+ " \n");
+            // ca sert rien de faire get dans le calcul de iMC vue qu'on a deja renter les données de poids et taille
+            // avant, ca va se calculer seul avec la fonction
             System.out.print("L'IMC du patient :" + patients1.iMC()+"\n");
 
 

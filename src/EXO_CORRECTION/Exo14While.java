@@ -3,6 +3,17 @@ package EXO_CORRECTION;
 import java.util.Scanner;
 
 public class Exo14While {
+    //E13.
+    //A l'exercice précédent, s'ajoute un nouveau requirement:
+    //
+    //Le nombre de fois que l'utilisateur peut saisir des mauvais identifiants est limité à 5,
+    // ensuite le programme va s'arrêter avec un message disant.
+    //
+    //"Vous avez saisi des mauvais identifiants x fois, votre compte est bloqué".
+    //
+    //
+    //
+    //Il faut dire à au user le nombre de tentatives restants
     public static void main(String[] args) {
 
         var input = new Scanner(System.in);

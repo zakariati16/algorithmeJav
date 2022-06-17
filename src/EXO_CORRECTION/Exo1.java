@@ -1,6 +1,13 @@
 package EXO_CORRECTION;
 
 public class Exo1 {
+    //E1.
+    //Ecrire un algorithme qui demande l'âge d'un enfant. Ensuite, il l'informe de sa catégorie :
+    //« Poussin » de 7 à 9 ans
+    //« Pupille » de 10 à 11 ans
+    //« Benjamin » de 12 à 13 ans
+    //« Minime » de 14 à 15 ans
+    //« Cadet » 16 à 17 ans
     public static void main(String[] args) {
         byte age=10;
 

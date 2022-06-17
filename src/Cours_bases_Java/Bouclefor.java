@@ -2,7 +2,7 @@ package Cours_bases_Java;
 
 import java.util.Scanner;
 
-public class Bouclefor {
+public class  Bouclefor {
     public static void main(String[] args) {
         System.out.println("Sans  la boucle for\n=====================");
         //Avant la boucle for

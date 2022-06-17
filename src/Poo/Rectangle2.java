@@ -18,6 +18,7 @@ public class Rectangle2 {
 
     //Manipulateurs ou setters : Ce sont des méthodes qui nous donnent la possibilité
     // de modifier des attributs privés
+    // void permet d'afficher une valeur
 
     public void setLongueur(double nouvelleValeur){
         longueur=nouvelleValeur;

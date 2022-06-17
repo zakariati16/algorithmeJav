@@ -2,7 +2,8 @@ package EXO_CORRECTION;
 
 public class Exo4 {
     public static void main(String[] args) {
-        // Ecrire un programme Java qui déclare 3 variables, a,b,c et qui va ensuite effectuer une permutation de ces valeurs :
+        // Ecrire un programme Java qui déclare 3 variables, a,b,c et
+        // qui va ensuite effectuer une permutation de ces valeurs :
         //
         System.out.println("les resultats avant permutation");
         int a=51;
