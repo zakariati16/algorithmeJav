@@ -25,7 +25,7 @@ public class TP6 {
         }
         return positions;
     }
-
+// travailler avec la methode
     public static void main(String[] args) {
 
         int [][] matrice={{1,4,2,1},{6,3,8,9},{1,5,1,0}};
