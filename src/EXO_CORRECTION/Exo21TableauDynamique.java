@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Exo21TableauDynamique {
     public static void main(String[] args) {
-        //Ecrire un programme Java demande à l'utilisateur de saisir  liste de langages de programmations
+        //Ecrire un programme Java demande à l'utilisateur de saisir  une liste de langages de programmations
         // à partir du clavier.
         // Une fois le tableau rempli, l'utilisateur sera appelé à saisir les noms des langages qu'il souhaite
         // retirer de liste.
@@ -19,9 +19,10 @@ public class Exo21TableauDynamique {
 
                 while (true) {
 
-                    System.out.println("Entrer une langage de programmation :");
+                    System.out.println("Entrer un langage de programmation :");
                     String langage = input.nextLine();
-                    //Cette méthode permet de vérifier si la chaîne est vide ou si elle ne contient que des caractères d'espacements
+                    //Cette méthode permet de vérifier si la chaîne est vide
+                    // ou si elle ne contient que des caractères d'espacements
                     if (langage.isBlank() && !langagesDeProgrammation.isEmpty()) {
                         break;
                     } else {

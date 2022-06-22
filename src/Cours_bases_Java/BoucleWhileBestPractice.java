@@ -26,7 +26,7 @@ public class BoucleWhileBestPractice {
             while (true) {
                 System.out.print("Entrez votre code PIN pour deverouiller l'appareil : ");
                 codeATester = input.nextLine();
-                if(!codeATester.equals(codePIN)){
+                if(codeATester.equals(codePIN)){
                     System.out.println("Bravo, appareil deverouille");
                     break;
                 }else{

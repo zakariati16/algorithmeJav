@@ -1,10 +1,14 @@
 package Cours_bases_Java;
 
+import java.util.Arrays;
+
 public class Tableaux {
     public static void main(String[] args) {
         //Creation des tableaux
         float[] notesPhysique={17.5F,18.2F,19,9,12};//Taille 5
         float[] notesMath=new float[5];//{ 0.0, 0.0, 0.0, 0.0,0.0 }
+
+        System.out.println("notes de physique sont les suivants: "+ Arrays.toString(notesPhysique));
 
 
         //Acces au tableau sans boucle

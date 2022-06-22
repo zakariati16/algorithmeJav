@@ -4,6 +4,7 @@ public class Voiture extends Vehicule {
 
     public Voiture(int anneeModele, double prix) {
         super(anneeModele, prix);
+
     }
 
     @Override

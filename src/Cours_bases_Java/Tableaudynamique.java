@@ -3,11 +3,12 @@ package Cours_bases_Java;
 import java.util.ArrayList;
 
 public class Tableaudynamique {public static void main(String[] args) {
-
+// la finalite d'un arraylist c'est qu'on peut rajouter et supprimer des attributs qu'on veut
+    // ce n'est pas comme les tableaux
     ArrayList<Integer> notes=new ArrayList<>();
 
     ArrayList<String> langagesDeProgrammation=new ArrayList<>();
-    System.out.println("Taille du tableau : "+langagesDeProgrammation.size());
+    //System.out.println("Taille du tableau : "+langagesDeProgrammation.size());
 
     langagesDeProgrammation.add("Java");// index de la table langagesdepro 0
     langagesDeProgrammation.add("Python");//index 1
@@ -18,6 +19,9 @@ public class Tableaudynamique {public static void main(String[] args) {
     System.out.println("Taille du tableau : "+langagesDeProgrammation.size());
     System.out.printf("langagesDeProgrammation[%d] : %s\n",
             0,langagesDeProgrammation.get(0));
+
+
+    System.out.println(langagesDeProgrammation.get(2));
 
     System.out.printf("langagesDeProgrammation[%d] %s\n",1,
             langagesDeProgrammation.get(1));

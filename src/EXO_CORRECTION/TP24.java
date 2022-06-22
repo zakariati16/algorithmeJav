@@ -2,7 +2,8 @@ package EXO_CORRECTION;
 
 public class TP24 {
 ///TP 24.
-//Ecrire une méthode Java qui prend en paramètre 2 string et qui ensuite retourne un booléen(true/false) selon que le 2ème string est le préfixe du premier ou pas.
+//Ecrire une méthode Java qui prend en paramètre 2 string et qui ensuite retourne un booléen(true/false)
+// selon que le 2ème string est le préfixe du premier ou pas.
 
 //Ex :
 //isPrefix("banner", "bang")

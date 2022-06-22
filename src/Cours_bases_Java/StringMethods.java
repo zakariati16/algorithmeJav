@@ -21,6 +21,7 @@ public class StringMethods {    public static void main(String[] args) {
     System.out.println(nom2.replace('a','*'));
 
 //        Extraire une sous-chaine :  Christian Lisangola
+    //C=INDEX 0;h=1;r=2....
     String chaine="Christian Lisangola";
     String chaine2=chaine.substring(2,9);//[2,9[
     System.out.println(chaine2);

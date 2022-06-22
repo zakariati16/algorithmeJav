@@ -26,13 +26,16 @@ en format [element1, element2,...,elementN] et la somme de tous les éléments m
                 int[] tableau3 = new int[valeurT3];
 
 
-                for (int i = 0; i <= tableau1.length - 1; i++) {
-                    System.out.printf("Valeur [%d] de tableau 1 : ", i);
-                    tableau1[i] = input.nextInt();
+               for (int i = 0; i <= tableau1.length - 1; i++) {
+                   // lorsqu'on demande à l'utlisateur de remplir les valeurs on ne met pas sout(table[i])
+                   // parce que le tableau est encore vide
+                   System.out.printf("Valeur [%d] de tableau 1:",i);
+// c'est à l'utilisateur de le remplir
+                   tableau1[i] = input.nextInt();
                 }
 
                 for (int j = 0; j <= tableau2.length - 1; j++) {
-                    System.out.printf("Valeur [%d] de tableau 2 : ", j);
+                   System.out.printf("Valeur [%d] de tableau 2 : ", j);
                     tableau2[j] = input.nextInt();
                 }
 
@@ -40,7 +43,7 @@ en format [element1, element2,...,elementN] et la somme de tous les éléments m
                     System.out.printf("Valeur [%d] de tableau 3 : ", k);
                     tableau3[k] = input.nextInt();
                 }
-
+// Pour afficher les valeurs d'un tableau, il faut faire reference arrays.toString(nom de la table)
                 System.out.println();
                 System.out.println("Le tableau 1 contient les valeurs : "+Arrays.toString(tableau1));
                 System.out.println("Le tableau 2 contient les valeurs : "+Arrays.toString(tableau2));
@@ -72,5 +75,3 @@ en format [element1, element2,...,elementN] et la somme de tous les éléments m
 
 
     }
-
-

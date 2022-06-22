@@ -61,6 +61,7 @@ public class Exo14While {
                     System.out.printf("Vous avez saisi des mauvais identifiants %d fois, il vous reste %d tentatives \n .", i, 5 - i);
                 } else {
                     System.out.println("Vous avez saisi des mauvais identifiants 5 fois, votre compte est bloqué.");
+                    break;
                 }
 
 

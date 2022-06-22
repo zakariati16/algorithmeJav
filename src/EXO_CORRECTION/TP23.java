@@ -9,7 +9,7 @@ public class TP23 {
 
 
 //        TP 23.
-//Ecrire un programme Java qui permet à l'utilsation de déclarer 2 tableaux:
+//Ecrire un programme Java qui permet à l'utilsateur de déclarer 2 tableaux:
 //1 tableau correspondant au numéro du jour de la semaine(ex : 1 pour Lundi)
 //1 tableau correspondant au nom des jours de la semaine(Ex : Lundi)
 //Associer les 2 informations dans un HashMap
